@@ -20,7 +20,7 @@ git clone https://github.com/Amyn00/Ascii_images.git
 ```
 2. Navigate to the directory
 ```bash
-cd Ascii_image
+cd Ascii_images
 ```
 
 3. Prepare an image in one of the allowed formats (PNG, JPG, JPEG, BMP) that you want to convert to ASCII art. Save the image in the same directory as the Python script or provide the full path to the image in the command-line arguments.
