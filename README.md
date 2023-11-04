@@ -1,5 +1,6 @@
-<img src="https://github.com/Amyn00/Ascii_images/blob/main/image/test.png"/>
 # Image to ASCII Converter
+<img src="https://github.com/Amyn00/Ascii_images/blob/main/image/test.png"/>
+
 This Python script converts images to ASCII art, providing a text-based representation of the image.
 ## Requirements
 * Pyhton 3 
