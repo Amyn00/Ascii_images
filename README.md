@@ -1,7 +1,11 @@
 # Image to ASCII Converter
 This Python script converts images to ASCII art, providing a text-based representation of the image.
 ## Requirements
-* Pyhton 3
+* Pyhton 3 
+	* (check if Python 3 exist)
+	```bash
+	python3 --version
+	```
 * Pillow library (PIL)
 You can install the pillow library using pip:
 ```bash
