@@ -48,7 +48,10 @@ image_redimensionnee = image_grayscale.resize((largeur_cible, hauteur_cible))
 pixels = image_redimensionnee.getdata()
 ascii_image = ""
 for pixel_value in pixels:
-    ascii_image += ascii_chars[pixel_value // 25]
+    if 0 <= pixel_value // 25 < len(ascii_chars):
+        ascii_image += ascii_chars[pixel_value // 25]
+    else:
+        ascii_image += '?'
 
 # Split the ASCII image into lines
 lignes_ascii = [ascii_image[i:i+largeur_cible] for i in range(0, len(ascii_image), largeur_cible)]

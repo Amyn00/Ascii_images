@@ -1,3 +1,4 @@
+<img src="image/test.png" width="1000" height="100">
 # Image to ASCII Converter
 This Python script converts images to ASCII art, providing a text-based representation of the image.
 ## Requirements
